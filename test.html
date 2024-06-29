@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome5/css/all.css">
+    <link rel="stylesheet" href="fontawesome5/css/v4-shims.css">
+    <link rel="stylesheet" href="owl/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="owl/css/owl-them2.css">
+    <link rel="stylesheet" href="css/home.css">
+    <title>صفحه اصلی</title>
+<style>
+    .ModuleProduct1 {
+  height: 400px;
+  overflow-y: hidden;
+ 
+}
+
+.productSlide {
+  position: relative;
+  background-color: white;
+  height: 400px;
+  width: 95%;
+  box-shadow: 0 0 2px 1px #3331c6;
+  border-radius: 5px;
+  z-index: 9;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
+
+.productSlide img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+}
+
+.productSlideText {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 40%;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+}
+
+.productName {
+  color: #010105;
+}
+
+.priceTi {
+  color: #010105;
+}
+
+.price {
+  color: #3331c6;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.toman {
+  color: #010105;
+}
+
+.inventory {
+  color: #010105;
+}
+
+.inventory_number {
+  font-weight: 600;
+  color: #3331c6;
+  font-size: 20px;
+}
+
+.addToCart {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  max-height: 50px;
+  overflow-y: auto;
+}
+
+.DTN {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.DTN input {
+  height: 40px;
+  width: 50px;
+  font-size: 18px;
+  text-align: center;
+  padding-right: 10px;
+  border: none;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.addDNum {
+  height: 40px;
+  padding: 2%;
+  font-weight: bold;
+  color: white;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.decDNum {
+  height: 40px;
+  width: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px 0 0 5px;
+}
+
+.discount {
+  position: absolute;
+  z-index: 4;
+  top: 2px;
+  right: 2px;
+  width: 20%;
+  height: 20%;
+  color: white;
+  text-align: center;
+}
+
+.discount img {
+  width: 100%;
+  height: 100%;
+}
+
+.discountText {
+  position: absolute;
+  z-index: 4;
+  top: 15px;
+  right: 21px;
+  width: 20%;
+  height: 20%;
+  color: white;
+  font-size: 13px;
+}
+
+.discountNumber {
+  padding-right: 7px;
+}
+</style>
+</head>
+
+<body>
+
+    <!-- Module product1 -->
+
+    <div class="owl-carousel ModuleProduct1 " id="ModuleProduct1">
+
+
+        <div class="productSlide">
+            <a href="">
+                <img src="image/product (1).jpg" class="productSlide_img">
+            </a>
+            <div class="productSlideText">
+
+                <h3 class="productName"> کاناپه </h3>
+                <p>
+                    <span class="priceTi"> قیمت: </span>
+                    <span class="price"> 4000000 </span>
+                    <input type="hidden" value="4000000">
+                    <span class="toman"> تومان </span>
+                </p>
+
+                <div class="DTN">
+                    <button class="addDNum">
+                        افزودن به سبد خرید
+                    </button>
+                </div>
+            </div>
+            <div class="discount">
+                <img src="image/discountTag.png">
+                <div class="discountText">
+                    <span class="discountNumber">
+                        10%
+                    </span>
+                    <span> تخفیف </span>
+                </div>
+            </div>
+        </div>
+        <div class="productSlide">
+            <a href="">
+                <img src="image/product (2).jpg" class="productSlide_img">
+            </a>
+            <div class="productSlideText">
+
+                <h3 class="productName"> کاناپه </h3>
+                <p>
+                    <span class="priceTi"> قیمت: </span>
+                    <span class="price"> 4000000 </span>
+                    <input type="hidden" value="4000000">
+                    <span class="toman"> تومان </span>
+                </p>
+
+                <div class="DTN">
+                    <button class="addDNum">
+                        افزودن به سبد خرید
+                    </button>
+                </div>
+            </div>
+            <div class="discount">
+                <img src="image/discountTag.png">
+                <div class="discountText">
+                    <span class="discountNumber">
+                        10%
+                    </span>
+                    <span> تخفیف </span>
+                </div>
+            </div>
+        </div>
+        <div class="productSlide">
+            <a href="">
+                <img src="image/product (4).jpg" class="productSlide_img">
+            </a>
+            <div class="productSlideText">
+
+                <h3 class="productName"> کاناپه </h3>
+                <p>
+                    <span class="priceTi"> قیمت: </span>
+                    <span class="price"> 4000000 </span>
+                    <input type="hidden" value="4000000">
+                    <span class="toman"> تومان </span>
+                </p>
+
+                <div class="DTN">
+                    <button class="addDNum">
+                        افزودن به سبد خرید
+                    </button>
+                </div>
+            </div>
+            <div class="discount">
+                <img src="image/discountTag.png">
+                <div class="discountText">
+                    <span class="discountNumber">
+                        10%
+                    </span>
+                    <span> تخفیف </span>
+                </div>
+            </div>
+        </div>
+        <div class="productSlide">
+            <a href="">
+                <img src="image/product (3).jpg" class="productSlide_img">
+            </a>
+            <div class="productSlideText">
+
+                <h3 class="productName"> کاناپه </h3>
+                <p>
+                    <span class="priceTi"> قیمت: </span>
+                    <span class="price"> 4000000 </span>
+                    <input type="hidden" value="4000000">
+                    <span class="toman"> تومان </span>
+                </p>
+
+                <div class="DTN">
+                    <button class="addDNum">
+                        افزودن به سبد خرید
+                    </button>
+                </div>
+            </div>
+            <div class="discount">
+                <img src="image/discountTag.png">
+                <div class="discountText">
+                    <span class="discountNumber">
+                        10%
+                    </span>
+                    <span> تخفیف </span>
+                </div>
+            </div>
+        </div>
+        <div class="productSlide">
+            <a href="">
+                <img src="image/product (5).jpg" class="productSlide_img">
+            </a>
+            <div class="productSlideText">
+
+                <h3 class="productName"> کاناپه </h3>
+                <p>
+                    <span class="priceTi"> قیمت: </span>
+                    <span class="price"> 4000000 </span>
+                    <input type="hidden" value="4000000">
+                    <span class="toman"> تومان </span>
+                </p>
+
+                <div class="DTN">
+                    <button class="addDNum">
+                        افزودن به سبد خرید
+                    </button>
+                </div>
+            </div>
+            <div class="discount">
+                <img src="image/discountTag.png">
+                <div class="discountText">
+                    <span class="discountNumber">
+                        10%
+                    </span>
+                    <span> تخفیف </span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="productSlide">
+            <a href="">
+                <img src="image/product (5).jpg" class="productSlide_img">
+            </a>
+            <div class="productSlideText">
+
+                <h3 class="productName"> کاناپه </h3>
+                <p>
+                    <span class="priceTi"> قیمت: </span>
+                    <span class="price"> 4000000 </span>
+                    <input type="hidden" value="4000000">
+                    <span class="toman"> تومان </span>
+                </p>
+
+                <div class="DTN">
+                    <button class="addDNum">
+                        افزودن به سبد خرید
+                    </button>
+                </div>
+            </div>
+            <div class="discount">
+                <img src="image/discountTag.png">
+                <div class="discountText">
+                    <span class="discountNumber">
+                        10%
+                    </span>
+                    <span> تخفیف </span>
+                </div>
+            </div>
+        </div>
+        <div class="productSlide">
+            <a href="">
+                <img src="image/product (5).jpg" class="productSlide_img">
+            </a>
+            <div class="productSlideText">
+
+                <h3 class="productName"> کاناپه </h3>
+                <p>
+                    <span class="priceTi"> قیمت: </span>
+                    <span class="price"> 4000000 </span>
+                    <input type="hidden" value="4000000">
+                    <span class="toman"> تومان </span>
+                </p>
+
+                <div class="DTN">
+                    <button class="addDNum">
+                        افزودن به سبد خرید
+                    </button>
+                </div>
+            </div>
+            <div class="discount">
+                <img src="image/discountTag.png">
+                <div class="discountText">
+                    <span class="discountNumber">
+                        10%
+                    </span>
+                    <span> تخفیف </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="owl/js/owl.carousel.js"></script>
+    <script>
+$("#ModuleProduct1").owlCarousel({
+    loop: false,
+    margin: 10,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 4
+        }
+    }
+});
+    </script>
+   <script src="js/myjs.js"></script>
+</body>
+
+</html>
